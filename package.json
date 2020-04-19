@@ -1,6 +1,6 @@
 {
   "name": "@alorel/rollup-plugin-copy-pkg-json",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Copies package.json to dist dir",
   "main": "index.js",
   "repository": "https://github.com/Alorel/rollup-plugin-copy-pkg.json.git",
