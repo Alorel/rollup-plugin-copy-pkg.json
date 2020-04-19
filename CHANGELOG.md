@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Alorel/rollup-plugin-copy-pkg.json/compare/1.0.1...1.0.2) (2020-04-19)
+
+
+### Maintenance
+
+* update dts plugin ([](https://github.com/Alorel/rollup-plugin-copy-pkg.json/commit/ea496bab69da2f9c294c4d7c2acbff6d05bab909))
+
 ## [1.0.1](https://github.com/Alorel/rollup-plugin-copy-pkg.json/compare/1.0.0...1.0.1) (2020-04-19)
 
 
