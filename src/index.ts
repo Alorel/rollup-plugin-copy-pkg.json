@@ -17,7 +17,7 @@ interface Options {
   unsetPaths?: PathType[];
 }
 
-interface CopyPkgJsonPlugin extends Required<Pick<Plugin, 'buildStart' | 'renderStart'>> {
+interface CopyPkgJsonPlugin extends Required<Pick<Plugin, 'renderStart'>> {
   name: 'copy-pkg-json';
 }
 
@@ -47,10 +47,7 @@ function copyPkgJsonPlugin(pluginOptions: Options = {}): CopyPkgJsonPlugin {
   } = pluginOptions;
 
   const out: Partial<CopyPkgJsonPlugin> = {
-    name: 'copy-pkg-json',
-    buildStart(this: PluginContext) {
-      this.addWatchFile(pkgJsonPath);
-    }
+    name: 'copy-pkg-json'
   };
 
   if (!unsetPaths || !unsetPaths.length) {
