@@ -40,11 +40,11 @@
     "tslint": "^6.1.1",
     "typescript": "^3.8.3"
   },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com/alorel"
-  },
-  "dependencies": {
-    "lodash": "^4.17.15"
   }
 }
