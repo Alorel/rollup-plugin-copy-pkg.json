@@ -19,7 +19,7 @@ export default {
   output: {
     dir: join(__dirname, 'dist'),
     assetFileNames: '[name][extname]',
-    sourcemap: true,
+    sourcemap: false,
     entryFileNames: '[name].js',
     format: 'cjs'
   },
