@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Alorel/rollup-plugin-copy-pkg.json/compare/1.0.2...1.0.3) (2020-04-20)
+
+
+### Bug Fixes
+
+* no longer package source maps ([](https://github.com/Alorel/rollup-plugin-copy-pkg.json/commit/0828e6e36ec8fe21ebf51385c5424035a9346c10))
+
 ## [1.0.2](https://github.com/Alorel/rollup-plugin-copy-pkg.json/compare/1.0.1...1.0.2) (2020-04-19)
 
 
